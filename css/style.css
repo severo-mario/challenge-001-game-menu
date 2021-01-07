@@ -34,6 +34,17 @@ li {
     border: solid 2px #61A6C9;
     width: 350px;
     border-radius: 20px;
+    
+}
+
+li:hover {
+    background-color: #61A6C9;
+    color: #333333;
+    cursor: pointer;
+}
+
+li:hover .robot-emoji{
+    float: none;
 }
 
 a {
@@ -50,8 +61,7 @@ a {
     padding-top: 10px;
 }
 
-li:hover {
-    background-color: #61A6C9;
-    color: #333333;
-    cursor: pointer;
+.robot-emoji {
+    float: left;
 }
+
